@@ -1,0 +1,790 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+:root{
+    background-color: #F6F7F9;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.logo{
+    
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #3563E9;
+}
+.searchbar{
+    width: 70%;
+    height: 70%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    color: #596780;
+    font-weight: bold;
+    border: 1px solid #C3D4E9;
+    border-radius: 20px;
+    gap: 5%;
+}
+.searchbar>input{
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: #F6F7F9;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+li{
+    color: #596780;
+    font-weight: bold;
+}
+.profile-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads1{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #54A6FF;
+    border-radius: 5px;
+    display: flex;
+
+}
+.ads1left{
+    width: 45%;
+    margin: 24px;
+    
+}
+.ads1left>h2{
+    
+    font-weight : 500;
+    font-size: 32px;
+    color: white;
+}
+.ads1left>p{
+    font-weight : 100;
+    font-size: 16px;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 44px;
+    background-color: #3563E9;
+    font-size: 16px;
+    border-radius: 5px; 
+    color: white;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.ads1right{
+    position: relative;
+    width: 50%;
+}
+.ads1right>img{
+    position: absolute;
+    width: 120%;
+    bottom: 20px;
+    right: 30px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin: 40px;
+}
+.pick-up{
+    width: 43%;
+    height: 15%;
+    border:2px solid #C3D4E9;
+    gap: 3%;
+    border-radius: 10px;
+    padding: 2%;
+
+}
+label{
+    display: flex;
+    color: #1A202C;
+    font-size: 1.25rem ;
+    font-weight:700;
+    gap: 2%;
+}
+
+.loc>p{
+    display: flex;
+    color: #90A3BF;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.card-options{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10%;
+}
+p>select {
+    border: 0px;
+    outline: 0px;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 8vh;
+    background-color: #3563E9;
+    border-radius: 10px;
+    gap: 3px;
+
+}
+.arrows>i{
+    color: white;
+    font-size: 15px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    gap: 70%;
+    color: #90A3BF;
+    font-size: 16;
+    font-weight: 500;
+}
+.links>a{
+    text-decoration: none;
+    color: #3563E9;
+    font-size: 16;
+    font-weight: 700;
+    }
+.product{
+    display: grid;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight : bold;
+    font-size: 20px;
+}
+.title>i:hover{
+    color: red;
+}
+.product>P{
+    color: #90A3BF;
+    font-size: 10;
+    font-weight: 500;
+    gap: 10px;
+}
+.product>img{
+    width: 220px;
+    align-items: center;
+}
+.specs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #90A3BF;
+    font-size: 10;
+    font-weight: 500;
+}
+.specs>p>i{
+    margin-right: 5px;
+}
+.catlog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F6F7F9;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    position: relative;
+    display: flex;
+}
+span>.day{
+    color: #90A3BF;
+    font-size: 10;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.showmore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.showmore-btn>.btn{
+    width: 150px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20%;
+    margin: 10%;
+} 
+
+.right>ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+  }
+
+/* category page  */
+.hero-section{
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    width: 80%;
+    background-color: white;
+}
+.product{
+    align-items: center;
+}
+.inner-sidebar>p{
+    color: #90A3BF;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.inner-sidebar{
+    margin: 10%;
+    border-radius: 10px;
+}
+.inner-sidebar>ul{
+    display: block;
+}
+.inner-sidebar>ul>li{
+    display: flex;
+    margin-top: 10%;
+    font-size: 1rem;
+    
+}
+.inner-sidebar>ul>li>span{
+    color: #1A202C;
+    font-size: 1rem;
+
+
+    margin-left:2% ;
+}
+/* detail-card  */
+
+.detail-card{
+    display: flex;
+}
+.detail-card>.ads1{
+    width: 50%;
+    background-color: #3563E9;
+    display: flex;
+}
+.detail-card>.ads1>.ads1left{
+    width: 300%;
+    
+}
+.detail-card>.ads1>.ads1right{
+    width: 300%;
+    right: 15%;
+    z-index: 1;
+
+}
+.car-imgs{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin: 2%;
+
+
+}
+.car-imgs>img{
+    width: 20%;
+}
+.details{
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    padding: 2%;   
+    border-radius: 10px;
+}
+.reviews{
+    margin: 3%;
+}
+.reviews>.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3%;
+}
+.review1{
+    background-color: white;
+    padding: 2%;
+    margin-top: 4%;
+    border-radius: 10px;
+}
+/* form  */
+.form-section{
+    width: 50%;
+}
+.main-form{
+    background-color: white;
+    width: 80%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.main-sec{
+    display: flex;
+    align-items: start;
+    /* justify-content: space-aroun; */
+    padding: 5%;
+    gap: 0%;
+}
+label{
+    margin: 0.5rem;
+}
+.user{
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #F6F7F9;
+    border:none;
+    outline: none;
+    width: 12vw;
+    gap: 2rem;
+    margin-top: 1rem;
+    flex: 1 0 8rem;
+}
+.pass{
+    padding: 5%;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    width: 12vw;
+    gap: 2rem;
+    margin-top: 1rem;
+    flex: 1 0 8rem;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:970px) {
+    .detail-card{
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+    }
+    .review1{
+        flex-wrap: wrap;
+    }
+    
+    .left-nav{
+        gap: 8%;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    .searchbar{
+        width: 60%;
+        height: 60%;
+        gap: 2%;
+    }
+    .searchbar>input{
+  
+        width: 250px;
+    }
+    ul{
+        gap: 30px;
+        font-size: 16px;
+    }
+
+    .ads1left>h2{
+        
+        font-weight : 500;
+        font-size: 26px;
+    }
+    .ads1left>p{
+        font-weight : 100;
+        font-size: 16px;
+    }
+    .btn{
+        width: 80px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .products>.card>.pick-up{
+        width: 70%;
+        height: 25%;
+        gap: 2%;
+        margin-top: 2%;
+        padding: 3%;
+    }
+    .inner-sidebar>ul>li{
+        display: flex;
+        margin-top: 15%;
+        font-size: 1rem;
+    }
+    .products>.card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .products>.card>.arrows{
+        width: 10%;
+        height: 7vh;
+        margin-top: 2%;
+    }
+    .links{
+         gap: 50%;
+
+    }
+    .inner-sidebar{
+        margin: 5%;
+    }
+    .inner-sidebar>ul>li{
+        font-size: 0.7rem;
+        
+    }
+    .inner-sidebar>ul>li>span{
+        color: #1A202C;
+        font-size: 0.8rem;
+
+    }
+    .detail-card>.ads1{
+        width: 90%;
+        background-color: #3563E9;
+        display: flex;
+    }
+    .detailed-card{
+        width: 60%;
+        padding: 5%;
+    }
+    .details{
+        width: 90%;
+        margin: 2%;
+    }
+    .car-imgs{
+        margin: 5%;
+    }
+    .main-sec{
+        flex-direction: column-reverse;
+    }
+    .form-section{
+        width: 100%;
+    }
+    .main-form{
+        width: 92%;
+    }
+    .form{
+        gap: 15rem;
+    }
+    .user{
+    width: 20vw;
+        
+    }
+    .pass{
+        width: 20vw;
+    }
+    footer {
+        padding: 1rem;
+        text-align: center;
+      }
+    
+
+}
+@media only screen and (max-width:790px) {
+  
+    .navbar{
+        align-items: baseline;
+        margin: 8%;
+
+    }
+    .left-nav{
+        display: block;
+    }
+    .logo{
+        font-size: 22px;
+    }
+    .searchbar{
+        width: 70%;
+        height: 70%;
+        gap: 2%;
+        margin-top : 8%;
+
+   
+    }
+    .searchbar>input{
+        font-size: 10px;
+        width: 270px;
+    }
+    ul{
+        gap: 25px;
+        font-size: 15px;
+    }
+    .ads1{
+        height: 40vh;
+        margin-left: 2%;
+        margin-right: 1%;
+
+    }
+    .ads1left{
+        margin: 18px;
+        
+    }
+    .ads1left>h2{
+        
+        font-weight : 500;
+        font-size: 20px;
+    }
+    .ads1left>p{
+        font-weight : 100;
+        font-size: 12px;
+    }
+    .btn{
+        width: 80px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .ads1right{
+        width: 60%;
+    }
+    .products>.card{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: baseline;
+        margin: 0%;
+
+    }
+    .products>.card>.pick-up{
+        /* width: 100%; */
+        height: 25%;
+        gap: 2%;
+        margin-top: 2%;
+        padding: 3%;
+    }
+   
+    .products>.card>.arrows{
+        width: 10%;
+        height: 7vh;
+        margin-top: 2%;
+    }
+    
+    .pick-up{
+        gap: 2%;
+        border-radius: 10px;
+        padding: 1%;
+    
+    }
+    label{
+        font-size: 1rem ;
+        gap: 2%;
+    }
+    .loc>p{
+
+        font-size: 10px;
+        gap: 10px;
+    }
+    .links{
+        gap: 30%;
+
+   }
+   .sidebar{
+    display: none;
+}
+.form{
+    flex-direction: column;
+    gap: 4rem;
+}
+.user{
+    width: 30vw;
+        
+    }
+    .pass{
+        width: 30vw;
+    }
+   .foot{
+    display: block;
+   }
+   .right>ul{
+    display: block;
+   }
+   .inner-sidebar>ul>li{
+    display: flex;
+    margin-top: 15%;
+    font-size: 0.5rem;
+}
+.detail-card{
+    width: 180%;
+    display: flex;
+    flex-direction: column;
+
+}
+.detailed-card>.detail-card>.ads1>.ads1left>p{
+    width: 130%;
+    font-size: 26px;
+}
+.detailed-card>.detail-card>.ads1>.ads1left>h2{
+    width: 130%;
+}
+ 
+}
+
+@media only screen and (max-width:670px) {
+    .navbar{
+        align-items: baseline;
+        justify-content: space-around;
+       
+
+    }
+    
+    .left-nav{
+        width: 70%;
+        gap: 5%;
+    }
+    ul{
+        gap: 20px;
+        font-size: 12px;
+    }
+    .searchbar{
+        width: 90%;
+        height: 70%;
+        gap: 7%;
+        margin-top : 8%;
+
+    }
+    .searchbar>input{
+        font-size: 7px;
+        width: 70%;
+    }
+    .ads{
+        flex-direction: column;
+    }
+    .ads1{
+        margin-top: 5%;
+        width: 90vw;
+        height: 40vh;
+    }
+    .form{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .user{
+        width: 30vw;
+            
+        }
+        .pass{
+            width: 30vw;
+        }
+    .card{
+        flex-direction: column;
+        gap: 4%;
+    }
+    .products>.card{
+        flex-direction: column;
+    }
+    .products>.card>.pick-up{
+        width: 80%;
+        gap: 2%;
+        margin-top: 2%;
+        padding: 1%;
+
+    }
+    .pick-up{
+        width: 90%;
+        height: 25%;
+        gap: 2%;
+        margin-top: 2%;
+        padding: 3%;
+    }
+    .arrows{
+        width: 20%;
+        height: 7vh;
+        margin-top: 2%;
+    }
+    .detailed-card>.detail-card>.ads1>.ads1left>p{
+        width: 130%;
+        font-size: 16px;
+    }
+    .detailed-card>.detail-card>.ads1>.ads1left>h2{
+        width: 130%;
+    }
+    .sidebar{
+        display: none;
+    }
+    .inner-sidebar>ul>li{
+        display: flex;
+        margin-top: 15%;
+        font-size: 1rem;
+    }
+
+}
+
