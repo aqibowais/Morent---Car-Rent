@@ -18,7 +18,7 @@ Morent Car Rent is a website designed to provide users with a platform to rent c
 
 To view the website, simply open the below Link.
 
-https://silly-duckanoo-b8967d.netlify.app/
+https://aqibowais.github.io/Morent---Car-Rent/
 
 ## Contributing
 
